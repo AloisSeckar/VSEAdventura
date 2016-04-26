@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cz.alois_seckar.vseadventrura.MainscreenActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <ImageButton
+            android:id="@+id/imageButtonRoom"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight=".2"
+            android:src="@drawable/room"
+            android:onClick="showRoom" />
+        <ImageButton
+            android:id="@+id/imageButtonBag"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight=".2"
+            android:src="@drawable/bag"
+            android:onClick="showBag" />
+        <ImageButton
+            android:id="@+id/imageButtonMap"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight=".2"
+            android:src="@drawable/map"
+            android:onClick="showMap" />
+        <ImageButton
+            android:id="@+id/imageButtonHelp"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight=".2"
+            android:src="@drawable/help"
+            android:onClick="showHelp" />
+        <ImageButton
+            android:id="@+id/imageButtonEnd"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight=".2"
+            android:src="@drawable/exit"
+            android:onClick="endGame" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_text"
+        android:id="@+id/odpovedText"
+        android:textSize="20sp"
+        android:scrollbars="vertical"
+        android:layout_above="@+id/prikazButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonLayout"
+        android:layout_alignRight="@+id/prikazButton"
+        android:layout_alignEnd="@+id/prikazButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/command_label"
+        android:id="@+id/prikazLabel"
+        android:layout_alignBottom="@+id/prikazButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <!-- Dummy item to prevent AutoCompleteTextView from receiving focus -->
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prikazText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:inputType="text"
+        android:layout_alignRight="@+id/prikazButton"
+        android:layout_alignEnd="@+id/prikazButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/command_button"
+        android:id="@+id/prikazButton"
+        android:onClick="reakceNaVstup"
+        android:layout_above="@+id/prikazText"
+        android:layout_alignRight="@+id/buttonLayout"
+        android:layout_alignEnd="@+id/buttonLayout" />
+
+</RelativeLayout>

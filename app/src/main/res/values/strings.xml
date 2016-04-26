@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VSE Adventrura</string>
+    <string name="welcome_text">Vítejte ve hře VŠE Adventura</string>
+    <string name="command_label">Zadejte příkaz:</string>
+    <string name="command_button">Provést</string>
+    <string name="back_button">Zpět</string>
+    <string name="command_reaction">Reakce na vstup:</string>
+    <string name="room_name">Místnost:</string>
+    <string name="bag_name">Obsah batohu</string>
+</resources>

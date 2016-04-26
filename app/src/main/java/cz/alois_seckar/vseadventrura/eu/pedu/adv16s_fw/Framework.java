@@ -6,6 +6,7 @@ package cz.alois_seckar.vseadventrura.eu.pedu.adv16s_fw;
 import cz.alois_seckar.vseadventrura.eu.pedu.adv16s_fw.empty_classes.IAuthorPrototype;
 import cz.alois_seckar.vseadventrura.eu.pedu.adv16s_fw.game_txt.IGSMFactory;
 import cz.alois_seckar.vseadventrura.eu.pedu.adv16s_fw.game_txt.IGame;
+import cz.alois_seckar.vseadventrura.eu.pedu.adv16s_fw.test_util.default_game_txt.DefaultGSMTFactory;
 //import cz.alois_seckar.vseadventrura.DefaultGSMTFactory;
 
 import android.graphics.Point;
@@ -73,7 +74,7 @@ public class Framework implements IAuthorPrototype
      */
     public static IGSMFactory getDefaultFactory()
     {
-        return null; // new DefaultGSMTFactory();
+        return new DefaultGSMTFactory();
     }
 
 

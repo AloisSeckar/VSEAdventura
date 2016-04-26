@@ -37,9 +37,6 @@ public class MapActivity extends AppCompatActivity {
         opts.inMutable = true;
         Bitmap mapPic = BitmapFactory.decodeResource(getResources(), getResources().getIdentifier(game.getMap(), "drawable", getPackageName()), opts);
         Canvas tempCanvas = new Canvas(mapPic);
-        //roomName.append(" (" + mapPic.getWidth() + "x" + mapPic.getHeight());
-
-        //roomName.append(" (" + tempCanvas.getWidth() + "x" + tempCanvas.getHeight());
         //Draw the image bitmap into the cavas
         Point playerCoords = game.getWorld().getCurrentSpace().getPosition();
         tempCanvas.drawBitmap(playerPic, playerCoords.x * mapPic.getWidth() / 10, playerCoords.y * mapPic.getHeight() / 10, null);

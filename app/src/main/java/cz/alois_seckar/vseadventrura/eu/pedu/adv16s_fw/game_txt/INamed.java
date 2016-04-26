@@ -36,10 +36,8 @@ public interface INamed
     public static <E extends INamed> Optional<E>
            getO(String member, E[] array)
     {
-        if (array.length>0) {
-            Optional<E> result = getO(member, Stream.of(array));
-            return result;
-        } else return null;
+        Optional<E> result = getO(member, Stream.of(array));
+        return result;
     }
 
 
@@ -59,10 +57,8 @@ public interface INamed
     public static <E extends INamed> Optional<E>
            getO(String member, Collection<E> collection)
     {
-        if (collection.size()>0) {
-            Optional<E> result = getO(member, Stream.of(collection));
-            return result;
-        } else return null;
+        Optional<E> result = getO(member, Stream.of(collection));
+        return result;
     }
 
 

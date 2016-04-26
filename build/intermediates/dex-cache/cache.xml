@@ -2,67 +2,67 @@
 <items version="2" >
 
     <item
-        jar="E:\VSEAdventrura\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jar="E:\x\VSEAdventrura\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="E:\VSEAdventrura\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_86369187a6bc769a7945567b8d29e58187fc0625.jar" />
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="E:\x\VSEAdventrura\app\build\intermediates\pre-dexed\release\internal_impl-23.3.0_99fb41788dbe576be86ba6e94d3ebe9abfe51714.jar" />
     </item>
     <item
-        jar="E:\VSEAdventrura\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="E:\VSEAdventrura\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_af8352950e486079f9b3c1807261fb53b998ca94.jar" />
-    </item>
-    <item
-        jar="E:\VSEAdventrura\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jar="E:\x\VSEAdventrura\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="E:\VSEAdventrura\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_c03dd4dc14d5a7de290ca20ddeef14e966931b7b.jar" />
+        <dex dex="E:\x\VSEAdventrura\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.3.0_d3bab5cd204ddbda1bbe57394dc060d2b62cfb25.jar" />
     </item>
     <item
-        jar="E:\VSEAdventrura\app\libs\streamsupport-1.4.3.jar"
+        jar="E:\x\VSEAdventrura\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="E:\x\VSEAdventrura\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-23.3.0_64a6b7e484183ea2a04d015b82efce906ec31f9a.jar" />
+    </item>
+    <item
+        jar="E:\x\VSEAdventrura\app\libs\streamsupport-1.4.3.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="7583d7481342f690db546e78fc2b5eabc58c07a2">
-        <dex dex="E:\VSEAdventrura\app\build\intermediates\pre-dexed\debug\streamsupport-1.4.3_1ccfa49b0c7afa09cf17160147d8934fca385e72.jar" />
+        <dex dex="E:\x\VSEAdventrura\app\build\intermediates\pre-dexed\release\streamsupport-1.4.3_123b517be46c405fb55caf912ccd63b80a50922c.jar" />
+    </item>
+    <item
+        jar="E:\x\VSEAdventrura\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="E:\x\VSEAdventrura\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-23.3.0_ce1ea92544a27ed3d294c8aeebeb4136ef9bfe9e.jar" />
     </item>
     <item
         jar="C:\Users\Ellrohir\.gradle\caches\modules-2\files-2.1\com.annimon\stream\1.0.9\46495fc7ff6b9bad0890aaafc0603003d47a0bfd\stream-1.0.9.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="46495fc7ff6b9bad0890aaafc0603003d47a0bfd">
-        <dex dex="E:\VSEAdventrura\app\build\intermediates\pre-dexed\debug\stream-1.0.9_9fbcd777262620e4ea5d28e17d6a4bb3e1af6188.jar" />
+        <dex dex="E:\x\VSEAdventrura\app\build\intermediates\pre-dexed\release\stream-1.0.9_9fbcd777262620e4ea5d28e17d6a4bb3e1af6188.jar" />
     </item>
     <item
         jar="C:\Users\Ellrohir\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.9.3\9e46be514a4ed60bcfbaaba88a3c668cf30476ab\joda-time-2.9.3.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="9e46be514a4ed60bcfbaaba88a3c668cf30476ab">
-        <dex dex="E:\VSEAdventrura\app\build\intermediates\pre-dexed\debug\joda-time-2.9.3_b51af4d5bb15fb04ffd51a912a533ba5321c76de.jar" />
+        <dex dex="E:\x\VSEAdventrura\app\build\intermediates\pre-dexed\release\joda-time-2.9.3_b51af4d5bb15fb04ffd51a912a533ba5321c76de.jar" />
     </item>
     <item
         jar="C:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="E:\VSEAdventrura\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_383276ca5b16e364447221f9235e2788f4c4bb30.jar" />
+        <dex dex="E:\x\VSEAdventrura\app\build\intermediates\pre-dexed\release\support-annotations-23.3.0_383276ca5b16e364447221f9235e2788f4c4bb30.jar" />
     </item>
     <item
-        jar="E:\VSEAdventrura\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jar="E:\x\VSEAdventrura\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="E:\VSEAdventrura\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_39bad68b1f663d878ee3cc0d53fbe5adec05543e.jar" />
-    </item>
-    <item
-        jar="E:\VSEAdventrura\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="E:\VSEAdventrura\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_0e54ac5e402d994b2a8274f48ed522e47dd655ee.jar" />
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="E:\x\VSEAdventrura\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.3.0_454811c706593535cc9a6f97b3ff494d44248134.jar" />
     </item>
 
 </items>
